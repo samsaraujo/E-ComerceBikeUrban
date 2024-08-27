@@ -24,7 +24,7 @@ const Contato = () => {
         <div className='contato-dados'>
           <div className="contato-loja-online">
             <h2>Nossos Contatos</h2>
-            <hr />
+            
             <div className="contato-p">
               <p>Entre em contato conosco pelos contatos abaixo:</p>
             </div>         
@@ -47,7 +47,7 @@ const Contato = () => {
 
           <div className="contato-loja-fisica">
             <h2>Nosso Endereço</h2>
-            <hr />
+            
             <div class="lojas-item">
              <img src={sp} alt="mapa marcando o endereço em Rua Ali Perto, 25 - Sao Paulo - SP"/>
               <div class="lojas-conteudo">

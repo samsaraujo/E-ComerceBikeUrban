@@ -31,13 +31,12 @@
 }
 
 .newsletter input {
-    width: 600px;
+    width: 100%;
     margin-left: 20px;
-    border: none;
     outline: none;
     height: 45px;
-    border-radius: 10px;
-    border: 2px solid #87C25F;
+    border-radius: 5px;
+    border: 1px solid #87C25F;
     font-family: Poppins;
     font-size: 16px;
 }
