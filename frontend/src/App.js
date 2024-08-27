@@ -11,6 +11,7 @@ import Contato from './Pages/Contato';
 import Footer from './Components/Footer/Footer';
 
 
+
 function App() {
   return (
     <div>
@@ -19,7 +20,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Shop/>}/>
         <Route path="/produtos" element={<ShopCategory category="bike"/>}/>
-        <Route path="/seguros" element={<ShopCategory category="seguro"/>}/>
         <Route path="/product" element={<Product/>}>
           <Route path=":productId" element={<Product/>}/>
         </Route>

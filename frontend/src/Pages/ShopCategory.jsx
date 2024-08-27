@@ -2,17 +2,16 @@ import React, { useContext } from 'react'
 import './CSS/ShopCategory.css'
 import { ShopContext } from '../Context/ShopContext';
 import dropdown_icon from '../Components/Assets/dropdown_icon.png'
-import all_product from '../Components/Assets/all_product';
 import Item from '../Components/Item/Item';
 
 const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext);
   return (
     <div className='shop-category'>
-      <div className="shopcategory-banner">
+      <div className='shop-header'>
         <hr />
-        <h1>Escolha já a sua nova bicicleta.</h1>
-        <p>Faça parte do mundo sobre duas rodas.</p>
+        <h1>Escolha já a sua nova Bicicleta.</h1>
+        <p>Encontre a Bike Perfeita para Suas Aventuras Urbanas. Qualidade e Estilo para Cada Pedalada.</p>
         <hr />
       </div>
 
@@ -20,12 +19,12 @@ const ShopCategory = (props) => {
         <p>
           <span>Mostrando 1-12</span> de 20 produtos.
         </p>
-      </div>
-
-      <div className="shopcategory-sort">
+        <div className="shopcategory-sort">
         Organizar por <img src={dropdown_icon} alt="" />
       </div>
+      </div>
 
+      <div className='shop-container'>
       <div className="shopcategory-products">
         {all_product.map((item, i) =>{
           if(props.category===item.category) {
@@ -36,6 +35,11 @@ const ShopCategory = (props) => {
           }
         })}
       </div>
+      <div className="shopcategory-loadmore">
+        Explore mais
+      </div>
+      </div>
+      
 
     </div>
 

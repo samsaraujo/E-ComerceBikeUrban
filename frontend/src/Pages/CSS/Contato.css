@@ -1,0 +1,111 @@
+.contato-header {
+    display: block;
+    margin: 20px auto;
+    width: 95%;   
+}
+
+.contato-header h1{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.contato-header p{
+    margin: 20px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato-header hr{
+   background: #808080;
+}
+
+
+.contato-dados {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 10px;
+    width: 90%;
+    justify-items: center;
+    margin: 70px 50px;
+}
+
+
+.contato-dados h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contato-dados hr {
+    width: 50%;
+}
+
+.contato-p {
+    margin-bottom: 32px;
+    margin-top: 32px;
+    padding: 20px 20px;
+}
+
+.contato-p p {
+    margin: 5px 15px;
+}
+
+.contato-redes a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 20px;
+ }
+
+ .contato-redes p {
+    margin-top: 20px;
+ }
+
+.lojas-item {
+    margin-top: 32px;
+    padding: 20px 20px;
+}
+
+.lojas-item img{
+    border-radius: 10px;
+}
+
+.contato-redes {
+    gap: 32px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.lojas-conteudo {
+    gap: 10px 16px;
+    padding: 32px;
+}
+
+.lojas-dados {
+    display: grid;
+}
+
+.lojas-dados a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.lojas-dados p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px ;
+}
+
+.lojas-tempo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
